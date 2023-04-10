@@ -172,24 +172,24 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "Grâce à l'excellent travail de Nicolas, notre site web est plus rapide et plus agréable à utiliser que jamais.",
+    name: "Émilie Moreau",
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "J'ai été impressionné par la créativité et le professionnalisme de Nicolas en matière de développement front-end.",
+    name: "Marc Dubois",
     designation: "COO",
     company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "Nicolas a apporté des améliorations significatives à notre application React, et elle a fait preuve d'un engagement total envers notre projet.",
+    name: "Sophie Martin",
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
