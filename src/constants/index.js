@@ -28,33 +28,33 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Présentation",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Mes expériences",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Mes projets",
   },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Développeur React",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Développeur React Native",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Développeur Backend",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Créateur de contenu",
     icon: creator,
   },
 ];
