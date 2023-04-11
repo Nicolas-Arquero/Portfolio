@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  gpt3,
+  customyourshirt,
+  hoobank,
 } from "../assets";
 
 export const navLinks = [
@@ -50,15 +53,15 @@ const services = [
     icon: web,
   },
   {
-    title: "Développeur React Native",
+    title: "Développeur Vue.js",
     icon: mobile,
   },
   {
-    title: "Développeur Backend",
+    title: "Creative developer",
     icon: backend,
   },
   {
-    title: "Créateur de contenu",
+    title: "UX designer",
     icon: creator,
   },
 ];
@@ -202,67 +205,66 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Custom your shirt",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Apllcation interactive en 3D permettant aux utilisateurs de personnaliser leur propre tee-shirt en temps réel, offrant ainsi une expérience de shopping unique et immersive.",
+    tags: [
+      {
+        name: "threejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vite.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: customyourshirt,
+    link: "https://customyourshirt.netlify.app/",
+    source_code_link: "https://github.com/Nicolas-Arquero/Custom-Your-Shirt",
+  },
+  {
+    name: "Hoobank",
+    description:
+      "Plateforme de paiement en ligne avec une interface utilisateur claire et intuitive qui présente toutes les fonctionnalités de la plateforme de manière transparente",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "viteJS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "TailwindCSS",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: hoobank,
+    link: "https://hoobank-france.netlify.app/",
+    source_code_link: "https://github.com/Nicolas-Arquero/HooBank",
   },
   {
-    name: "Job IT",
+    name: "GPT-3 Explorer",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Interface utilisateur claire et conviviale présentant GPT-3 utilisant les dernières technologies en matière de développement web pour garantir une expérience utilisateur optimale",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
       },
       {
         name: "css",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: gpt3,
+    link: "https://gpt3-explorer.netlify.app/",
+    source_code_link: "https://github.com/Nicolas-Arquero/GPT3-Explorer",
   },
 ];
 

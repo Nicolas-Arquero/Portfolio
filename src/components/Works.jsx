@@ -10,6 +10,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
   index,
+  link,
   name,
   description,
   tags,
@@ -30,7 +31,7 @@ const ProjectCard = ({
           <img
             src={image}
             alt='project_image'
-            className='w-full h-full object-cover rounded-2xl'
+            className='w-full h-full object-contain rounded-2xl'
           />
 
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
@@ -48,8 +49,9 @@ const ProjectCard = ({
         </div>
 
         <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+          <a target={"_blank"} href={link} className='text-white font-bold text-[24px]'>{name}</a>
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+          <a target={"_blank"} href={link} className='text-[12px] mt-10 underline'>Lien du projet</a>
         </div>
 
         <div className='mt-4 flex flex-wrap gap-2'>
