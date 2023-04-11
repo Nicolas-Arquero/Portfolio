@@ -70,12 +70,36 @@ const Contact = () => {
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
+        className='flex'
       >
-        <p className={styles.sectionSubText}>Contactez-moi</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
 
-        <form
+
+    <div className="bg-black-100 p-8 rounded-2xl self-center">
+
+        <div className="flex flex-col gap-1.5">
+            <p className={styles.sectionSubText}>Contactez-moi</p>
+            {/* <h3 className={styles.sectionHeadText}>Contact.</h3> */}
+            <div>arqueronicolas@gmail.com</div>
+
+        </div>
+
+        
+
+
+         <div className="flex flex-col gap-1.5 mt-8">
+
+            <p className={styles.sectionSubText}>Réseaux sociaux</p>
+
+            <div className="flex gap-1.5">
+              <a href="">Linkedin</a>
+              <a href="">Github</a>
+            </div>
+
+        </div>
+
+        </div>
+
+        {/* <form
           ref={formRef}
           onSubmit={handleSubmit}
           className='mt-12 flex flex-col gap-8'
@@ -120,7 +144,7 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Envoyer"}
           </button>
-        </form>
+        </form> */}
       </motion.div>
 
       <motion.div
