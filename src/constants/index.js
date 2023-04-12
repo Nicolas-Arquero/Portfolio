@@ -26,6 +26,7 @@ import {
   gpt3,
   customyourshirt,
   hoobank,
+  jalis,
 } from "../assets";
 
 export const navLinks = [
@@ -138,7 +139,7 @@ const experiences = [
   {
     title: "Développeur front-end",
     company_name: "Jalis",
-    icon: tesla,
+    icon: jalis,
     iconBg: "#E6DEDD",
     date: "Mai 2021 - Décembre 2022",
     points: [

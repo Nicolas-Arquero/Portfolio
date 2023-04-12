@@ -25,6 +25,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import jalis from "./company/jalis.svg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -65,4 +66,5 @@ export {
   gpt3,
   customyourshirt,
   hoobank,
+  jalis,
 };
