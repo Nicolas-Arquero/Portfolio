@@ -33,26 +33,26 @@ const Contact = () => {
     setLoading(true);
 
     emailjs.send(
-        service_4tut96o,
-        template_aeozkgj,
+        'service_4tut96o',
+        'template_zxa00fm',
         {
           from_name: form.name,
-          to_name: "Nicolas",
+          to_name: 'Nicolas',
           from_email: form.email,
-          to_email: "nicolasarquero.dev@gmail.com",
+          to_email: 'nicolasarquero.dev@gmail.com',
           message: form.message,
         },
-        FMOzQrnMAAeKA7zH7s4xv
+        'bIp65C2RXHWE-9irm'
       )
       .then(
         () => {
           setLoading(false);
-          alert("Je vous remercie. Je reviendrai vers vous dès que possible.");
+          alert('Je vous remercie. Je reviendrai vers vous dès que possible.');
 
           setForm({
-            name: "",
-            email: "",
-            message: "",
+            name: '',
+            email: '',
+            message: '',
           });
         },
         (error) => {
