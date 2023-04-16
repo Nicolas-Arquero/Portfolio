@@ -27,6 +27,7 @@ import {
   customyourshirt,
   hoobank,
   jalis,
+  iconxp,
 } from "../assets";
 
 export const navLinks = [
@@ -126,7 +127,7 @@ const experiences = [
   {
     title: "Développeur front-end junior",
     company_name: "Freelance",
-    icon: starbucks,
+    icon: iconxp,
     iconBg: "#383E56",
     date: "Janvier 2020 - Mai 2021",
     points: [
@@ -152,7 +153,7 @@ const experiences = [
   {
     title: "Développeur front-end",
     company_name: "Freelance",
-    icon: shopify,
+    icon: iconxp,
     iconBg: "#383E56",
     date: "Jan 2023 - Aujourd’hui",
     points: [

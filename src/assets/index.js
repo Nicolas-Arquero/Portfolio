@@ -33,6 +33,7 @@ import tripguide from "./tripguide.png";
 import gpt3 from "./gpt3.jpg";
 import customyourshirt from "./customyourshirt.jpg";
 import hoobank from "./hoobank.jpg";
+import iconxp from "./company/iconxp.svg";
 
 export {
   logo,
@@ -67,4 +68,5 @@ export {
   customyourshirt,
   hoobank,
   jalis,
+  iconxp,
 };
