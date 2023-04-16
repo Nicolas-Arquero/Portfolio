@@ -134,6 +134,9 @@
 .touch-scroll div:nth-child(2) {
   touch-action: unset !important;
 }
+.touch-scroll-2 div:nth-child(1) {
+  touch-action: unset !important;
+}
 
 
 @keyframes mulShdSpin {

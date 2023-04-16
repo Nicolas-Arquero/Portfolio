@@ -124,17 +124,18 @@ const technologies = [
 ];
 
 const experiences = [
+
   {
-    title: "Développeur front-end junior",
+    title: "Développeur front-end",
     company_name: "Freelance",
     icon: iconxp,
     iconBg: "#383E56",
-    date: "Janvier 2020 - Mai 2021",
+    date: "Jan 2023 - Aujourd’hui",
     points: [
-      "Développement de sites web responsives en utilisant React ou Vue.js pour garantir une expérience utilisateur de qualité sur tous les appareils.",
-      "Création de sites web pour des clients en utilisant des CMS tels que Wordpress pour permettre une gestion facile et efficace des contenus.",
-      "Utilisation de PHP pour la création de thèmes personnalisés pour Wordpress et la création de fonctionnalités sur mesure.",
-      "Optimisation de la performance des sites web en utilisant des techniques telles que la mise en cache pour améliorer la vitesse de chargement des pages",
+      "Développement de sites web et d'applications web responsives en utilisant React ou Vue.js.",
+      "Intégration de designs de pages web en utilisant des bibliothèques de composants React ou Vue.js. ",
+      "Création de pages web et d'applications web dynamiques en utilisant React ou Vue.js et des frameworks de gestion d'état tels que Redux ou Vuex",
+      "Développement de fonctionnalités et d'interactions complexes en utilisant des bibliothèques de composants React ou Vue.js.",
     ],
   },
   {
@@ -150,17 +151,18 @@ const experiences = [
       "Intégration de maquettes de pages web en utilisant des technologies de templating telles que Twig.",
     ],
   },
+
   {
-    title: "Développeur front-end",
+    title: "Développeur front-end junior",
     company_name: "Freelance",
     icon: iconxp,
     iconBg: "#383E56",
-    date: "Jan 2023 - Aujourd’hui",
+    date: "Janvier 2020 - Mai 2021",
     points: [
-      "Développement de sites web et d'applications web responsives en utilisant React ou Vue.js.",
-      "Intégration de designs de pages web en utilisant des bibliothèques de composants React ou Vue.js. ",
-      "Création de pages web et d'applications web dynamiques en utilisant React ou Vue.js et des frameworks de gestion d'état tels que Redux ou Vuex",
-      "Développement de fonctionnalités et d'interactions complexes en utilisant des bibliothèques de composants React ou Vue.js.",
+      "Développement de sites web responsives en utilisant React ou Vue.js pour garantir une expérience utilisateur de qualité sur tous les appareils.",
+      "Création de sites web pour des clients en utilisant des CMS tels que Wordpress pour permettre une gestion facile et efficace des contenus.",
+      "Utilisation de PHP pour la création de thèmes personnalisés pour Wordpress et la création de fonctionnalités sur mesure.",
+      "Optimisation de la performance des sites web en utilisant des techniques telles que la mise en cache pour améliorer la vitesse de chargement des pages",
     ],
   },
   // {
@@ -184,7 +186,7 @@ const testimonials = [
       "Grâce à l'excellent travail de Nicolas, notre site web est plus rapide et plus agréable à utiliser que jamais.",
     name: "Émilie Moreau",
     designation: "CFO",
-    company: "Acme Co",
+    company: "",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
@@ -192,7 +194,7 @@ const testimonials = [
       "J'ai été impressionné par la créativité et le professionnalisme de Nicolas en matière de développement front-end.",
     name: "Marc Dubois",
     designation: "COO",
-    company: "DEF Corp",
+    company: "",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
@@ -200,7 +202,7 @@ const testimonials = [
       "Nicolas a apporté des améliorations significatives à notre application React, et elle a fait preuve d'un engagement total envers notre projet.",
     name: "Sophie Martin",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
