@@ -126,6 +126,12 @@
   transform: translateZ(0);
 }
 
+@media (max-width: 500px) {
+  .respSubTitle{
+    display:none;
+  }
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {
