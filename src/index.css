@@ -131,6 +131,10 @@
     display:none;
   }
 }
+.touch-scroll div:nth-child(2) {
+  touch-action: unset !important;
+}
+
 
 @keyframes mulShdSpin {
   0%,
