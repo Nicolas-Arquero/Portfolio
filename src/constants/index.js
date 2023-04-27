@@ -199,7 +199,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Nicolas a apporté des améliorations significatives à notre application React, et elle a fait preuve d'un engagement total envers notre projet.",
+      "Nicolas a apporté des améliorations significatives à notre application React, et il a fait preuve d'un engagement total envers notre projet.",
     name: "Sophie Martin",
     designation: "CTO",
     company: "",
